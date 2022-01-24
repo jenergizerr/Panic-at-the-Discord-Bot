@@ -9,7 +9,7 @@ from io import BytesIO
 from discord.ext import commands
 from discord.ext.commands import Bot
 from dotenv import load_dotenv
-from IPython import display
+
 
 load_dotenv()
 
