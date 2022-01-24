@@ -73,7 +73,7 @@ async def apply(ctx, fit: str, pfp_id: int):
             pfp_image = get_dressed(fit, str(pfp_id))
             await ctx.send(file=discord.File("pfp_image.png"))
       else:
-        await ctx.send('Please pic an actual option. command !<swag> for all the ways to make your #rabbitarchic')
+        await ctx.send('u think u can get a mcds job with that attn to detail? command !<fits> for ways 2 survive the dip')
     except:
         await ctx.send('Please enter a valid number between 1 and 1818.')
 
