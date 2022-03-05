@@ -69,13 +69,13 @@ async def on_ready():
 async def apply(ctx, fit: str, pfp_id: int):
     try:
       if fit.lower() in outfits:
-        if 0 <= pfp_id <= 1820:
+        if 0 <= pfp_id <= 1900:
             pfp_image = get_dressed(fit, str(pfp_id))
             await ctx.send(file=discord.File("pfp_image.png"))
       else:
         await ctx.send('u think u can get a mcds job with that attn to detail? command !<fits> for ways 2 survive the dip')
     except:
-        await ctx.send('Please enter a valid number between 1 and 1818.')
+        await ctx.send('Please enter a valid number between 1 and 1900.')
 
 # Lists the different "fits" available. This just returns the outfits list on new lines
 
